@@ -1,0 +1,61 @@
+Virtualization Summary
+
+1. Virtualization
+Virtualization is the process of creating virtual versions of computing resources like servers, storage, and networks.
+
+✔ Improves resource utilization
+✔ Reduces hardware costs
+✔ Increases flexibility
+
+2. Hypervisor
+A hypervisor is software that allows multiple Virtual Machines (VMs) to run on a single physical machine.
+
+Types of Hypervisors:
+
+Type 1 (Bare-metal): Runs directly on hardware (e.g., KVM, VMware ESXi).
+Type 2 (Hosted): Runs inside an OS (e.g., VirtualBox, VMware Workstation).
+✔ Manages VM resources
+✔ Ensures isolation between VMs
+
+3. Virtual Machines (VMs)
+A VM is a software-based computer that runs its own OS and applications.
+
+Pros:
+✔ Strong isolation
+✔ Can run different OS types
+✔ Useful for legacy applications
+
+Cons:
+✘ Higher resource consumption
+✘ Slower performance compared to containers
+
+4. Containers
+Containers package applications with their dependencies, sharing the host OS kernel for efficiency.
+
+Examples:
+
+Docker
+LXC
+Kubernetes
+Pros:
+✔ Lightweight and fast
+✔ Easy to scale and deploy
+✔ Portable across different environments
+
+Cons:
+✘ Less isolation than VMs
+✘ Needs proper container management
+
+5. Differences Between VMs and Containers
+Feature	Virtual Machines (VMs)	Containers
+Isolation	Strong (full OS per VM)	Lightweight (shared OS kernel)
+Startup Time	Slow (minutes)	Fast (seconds)
+Resource Usage	High (each VM needs OS)	Low (shares OS kernel)
+Portability	Harder (OS dependencies)	Easy (works across systems)
+Use Case	Running different OS types	Running multiple apps efficiently
+
+Conclusion-
+Virtualization enables multiple systems on one machine.
+Hypervisors manage VMs for OS-level isolation.
+Containers provide fast and lightweight app deployment.
+VMs are better for running multiple OS types, while containers are best for scalable applications.
