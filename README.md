@@ -29,17 +29,27 @@ Containers are lightweight, portable, and self-sufficient units that include eve
 ## Virtualization Summary File [Virtualization Summary](virtualization_summary.txt)
 
 # Part 2: Working with Multipass
+
 **Multipass Installation Process**
+
 ![Installation](Multipass1.png)
+
 **Basic Command**
+
 ![Basic Commands](Multipass2.png)
 
 ![Basic Commands More](Multipass3.png)
+
 **File Sharing**
+
 ![File Sharing](Multipass4.png)
+
 **Cloud Init**
+
 ![Cloud Init](Multipass5.png)
+
 **VM**
+
 ![VM](Multipass6.png)
 
 # Part 3: Exploring LXD
@@ -63,6 +73,7 @@ lxc stop mycontainer  # Stop the container
 
 lxc delete mycontainer  # Delete the container
 **LXD container running**
+
 ![LXD container running](LXDcontainerrunning.png)
 
 # Part 4: Using Docker
@@ -79,7 +90,9 @@ sudo systemctl enable docker
 Verify installation:
 
 docker --version
+
 **Docker Installing**
+
 ![Install](Docker1.png)
 
 ## Task 2: Run Docker Containers
@@ -97,7 +110,9 @@ docker rm <container-id>  # Remove a container
 Opened http://localhost:8080 in my browser.
 
 For the first time i couldn't open after in my VM i created one inbount rule then it works perfectly.
+
 **Local Host**
+
 ![Local Host](Docker2.png)
 
 ## Task 3: Create a Simple Dockerfile
@@ -146,7 +161,9 @@ snapcraft
 Install and test the Snap:
 
 sudo snap install my-snap --dangerous
+
 **My Snap**
+
 ![My Snap](mysnap.png)
 
 *THE END*
