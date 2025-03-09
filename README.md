@@ -31,9 +31,9 @@ Containers are lightweight, portable, and self-sufficient units that include eve
 # Part 2: Working with Multipass
 ![Installation](Multipass1.png)
 
-![Basic_Commands](Multipass2.png)
+![Basic Commands](Multipass2.png)
 
-![Basic_Commands_More](Multipass3.png)
+![Basic Commands More](Multipass3.png)
 
 ![File Sharing](Multipass4.png)
 
