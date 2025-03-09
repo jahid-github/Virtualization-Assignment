@@ -1,38 +1,34 @@
 # Part 1: Virtualization
-Virtualization is a technology that allows you to create multiple simulated environments or dedicated resources from a single, physi>
+Virtualization is a technology that allows you to create multiple simulated environments or dedicated resources from a single, physical hardware system. It uses software to create an abstraction layer over the physical hardware, enabling the division of a single computer's resources into multiple virtual machines (VMs) or containers.
 
 ## Hypervisor
-A hypervisor, also known as a virtual machine monitor (VMM), is software, firmware, or hardware that creates and runs virtual machin>
+A hypervisor, also known as a virtual machine monitor (VMM), is software, firmware, or hardware that creates and runs virtual machines. It allows multiple operating systems to share a single hardware host. There are two types of hypervisors:
 
 - Type 1 (Bare-metal): Runs directly on the host's hardware to manage guest operating systems (e.g., VMware ESXi, Microsoft Hyper-V).
 - Type 2 (Hosted): Runs on a conventional operating system just like other software (e.g., VMware Workstation, Oracle VirtualBox).
 
 ## Virtual Machines (VMs)
-A virtual machine (VM) is an emulation of a computer system. VMs run on hypervisors and provide the functionality of a physical comp>
+A virtual machine (VM) is an emulation of a computer system. VMs run on hypervisors and provide the functionality of a physical computer. Each VM includes its own operating system and applications, and is isolated from the host system and other VMs.
 
 ## Containers
-Containers are lightweight, portable, and self-sufficient units that include everything needed to run a piece of software, including>
+Containers are lightweight, portable, and self-sufficient units that include everything needed to run a piece of software, including the code, runtime, system tools, libraries, and settings. Containers share the host system's kernel but run in isolated user spaces.
 
 ## Here are the core differences between VMs and containers:
-
-
 ### Architecture:
-
-*VMs:* Each VM runs a full operating system, including its own kernel, on top of the hypervisor. This makes VMs more resource-intens>*Containers:* Containers share the host system's kernel and run as isolated processes in user space. This makes containers more ligh>
+*VMs:* Each VM runs a full operating system, including its own kernel, on top of the hypervisor. This makes VMs more resource-intensive.
+*Containers:* Containers share the host system's kernel and run as isolated processes in user space. his makes containers more lightweight and efficient.
 
 ### Resource Utilization:
-
 *VMs:* Require more system resources (CPU, memory, storage) because each VM includes a full operating system.
 *Containers:* Use fewer resources as they share the host system's kernel and only include the necessary libraries and dependencies.
 
 ### Isolation Levels:
 *VMs:* Provide strong isolation as each VM is completely separated from the host and other VMs.
-*Containers:* Offer lightweight isolation, which is sufficient for many applications but not as robust as VMs. Containers can be fur>
+*Containers:* Offer lightweight isolation, which is sufficient for many applications but not as robust as VMs. Containers can be further isolated using technologies like Hyper-V isolation.
 
 ## Virtualization Summary File [Virtualization Summary](virtualization_summary.txt)
 
 # Part 2: Working with Multipass
-
 ![Installation](Multipass 1.png)
 ![Basic Commands](Multipass 2.png)
 ![Basic Commands More](Multipass 3.png)
@@ -56,7 +52,7 @@ lxc exec mycontainer -- bash  # Enter the container
 lxc stop mycontainer  # Stop the container
 lxc delete mycontainer  # Delete the container
 
-![LXD container running](/home/jahid/LXD container running.png)
+![LXD container running](LXD container running.png)
 
 # Part 4: Using Docker
 ## Task 1: Install Docker
