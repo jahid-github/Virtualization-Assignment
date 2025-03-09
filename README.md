@@ -29,17 +29,17 @@ Containers are lightweight, portable, and self-sufficient units that include eve
 ## Virtualization Summary File [Virtualization Summary](virtualization_summary.txt)
 
 # Part 2: Working with Multipass
-![Installation](images/Multipass%1.png)
+![Installation](images/Multipass1.png)
 
-![Basic Commands](Multipass 2.png)
+![Basic Commands](Multipass2.png)
 
-![Basic Commands More](Multipass 3.png)
+![Basic Commands More](Multipass3.png)
 
-![File Sharing](Multipass 4.png)
+![File Sharing](Multipass4.png)
 
-![Cloud Init](Multipass 5.png)
+![Cloud Init](Multipass5.png)
 
-![VM](Multipass 6.png)
+![VM](Multipass6.png)
 
 # Part 3: Exploring LXD
 
@@ -79,7 +79,7 @@ Verify installation:
 
 docker --version
 
-![Install](Docker 1.png)
+![Install](Docker1.png)
 
 ## Task 2: Run Docker Containers
 
@@ -97,7 +97,7 @@ Opened http://localhost:8080 in my browser.
 
 For the first time i couldn't open after in my VM i created one inbount rule then it works perfectly.
 
-![Local Host](Docker 2.png)
+![Local Host](Docker2.png)
 
 ## Task 3: Create a Simple Dockerfile
 
@@ -119,9 +119,9 @@ docker run myubuntu
 
 Checked in Nginx
 
-![My Nginx](nginx 1.png)
+![My Nginx](nginx1.png)
 
-![Nginx Page Output](nginx 2.png)
+![Nginx Page Output](nginx2.png)
 
 # Part 5: Snaps for Self-Contained Applications
 ## Task 1: Research Snaps
@@ -146,6 +146,6 @@ Install and test the Snap:
 
 sudo snap install my-snap --dangerous
 
-![My Snap](my snap.png)
+![My Snap](mysnap.png)
 
 *THE END*
