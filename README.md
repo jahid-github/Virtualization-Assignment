@@ -62,7 +62,7 @@ lxc stop mycontainer  # Stop the container
 
 lxc delete mycontainer  # Delete the container
 
-![LXD container running](LXD container running.png)
+![LXD container running](LXDcontainerrunning.png)
 
 # Part 4: Using Docker
 ## Task 1: Install Docker
