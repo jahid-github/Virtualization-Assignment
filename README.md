@@ -29,11 +29,11 @@ Containers are lightweight, portable, and self-sufficient units that include eve
 ## Virtualization Summary File [Virtualization Summary](virtualization_summary.txt)
 
 # Part 2: Working with Multipass
-![Installation](images/Multipass1.png)
+![Installation](Multipass1.png)
 
-![Basic Commands](Multipass2.png)
+![Basic_Commands](Multipass2.png)
 
-![Basic Commands More](Multipass3.png)
+![Basic_Commands_More](Multipass3.png)
 
 ![File Sharing](Multipass4.png)
 
